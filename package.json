@@ -1,0 +1,19 @@
+{
+  "name": "reddit-clone-express-server",
+  "version": "1.0.0",
+  "description": "reddit clone server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwestbrook91/Reddit-Clone-Express-Server.git"
+  },
+  "author": "Jack Westbrook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwestbrook91/Reddit-Clone-Express-Server/issues"
+  },
+  "homepage": "https://github.com/jwestbrook91/Reddit-Clone-Express-Server#readme"
+}
