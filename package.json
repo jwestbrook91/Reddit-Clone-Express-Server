@@ -2,11 +2,11 @@
   "name": "reddit-clone-express-server",
   "version": "1.0.0",
   "description": "reddit clone server",
-  "main": "index.js",
+  "main": "env.js",
   "scripts": {
     "knex": "knex",
     "start": "nodemon",
-    "test": "jest"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "boom": "^6.0.0",
+    "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "express-jwt": "^5.3.0",
@@ -31,17 +32,20 @@
     "lodash.isfunction": "^3.0.8",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
+    "mocha": "^4.0.1",
     "morgan": "^1.9.0",
     "pg": "^7.3.0",
     "pluralize": "^7.0.0",
     "yup": "^0.23.0"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
     "dotenv": "^4.0.0",
     "eslint": "^4.8.0",
     "jest": "^21.2.1",
     "mock-knex": "^0.3.9",
     "node-mocks-http": "^1.6.6",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "supertest": "^3.0.0"
   }
 }
